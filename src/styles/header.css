@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header-text {
+  display: flex;
+  align-items: baseline;
+  color: white;
+}
+.header-text h1 {
+  margin: 15px;
+}
+.fullstack-link {
+  color: white;
+  text-decoration-line: none;
+}
+.header-text small:hover {
+  font-size: 1.7em;
+  color: orange;
+}
+.header-links {
+  display: flex;
+  align-items: center;
+}
+.header-links a {
+  font-size: 1.5em;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+}
+.header-links a:hover {
+  color: red;
+}
+.img {
+  background-image: url(http://www.bamradionetwork.com/images/coding.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 710px;
+}

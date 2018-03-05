@@ -1,0 +1,52 @@
+#about-me h1 {
+  display: flex;
+  justify-content: center;
+}
+.me {
+  display: flex;
+  justify-content: center;
+}
+.myPic {
+  border-radius: 5px;
+}
+.about-text {
+  width: 60%;
+  margin: 0 auto;
+}
+.tech-images .logo {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+}
+.tech-images {
+  display: flex;
+  justify-content: space-around;
+}
+.react-logo {
+  animation: react-logo-spin infinite 20s linear;
+}
+@keyframes react-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.react {
+  display: flex;
+  justify-content: center;
+}
+.back-to-top a {
+  width: 7%;
+  margin: 50px 60px 0 auto;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+.back-to-top a:hover {
+  color: red;
+}
+.back-to-top a:visited {
+  color: black;
+}
+.back-to-top a:visited:hover {
+  color: red;
+}

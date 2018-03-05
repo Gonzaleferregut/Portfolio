@@ -1,0 +1,12 @@
+.footer {
+  background-color: orange;
+}
+.footer p {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+}

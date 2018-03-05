@@ -1,0 +1,42 @@
+.flag {
+  width: 400px;
+  height: 208px;
+  background-color: white;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  width: 350px;
+  height: 110px;
+  background-color: blue;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.box h2 {
+  text-align: center;
+  padding: 5px;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+span {
+  color: white;
+}
+.box2 {
+  width: 100%;
+}
+.top-bar {
+  background-color: green;
+}
+.red-stripes {
+  width: 100%;
+  height: 16px;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
