@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gonzaleferregut.github.io/portfolio/",
+  "homepage": "https://Gonzaleferregut.github.io/portfolio/",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
@@ -17,6 +17,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   }
 }
